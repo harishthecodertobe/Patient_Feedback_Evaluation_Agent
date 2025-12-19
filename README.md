@@ -52,6 +52,3 @@ This file is included for reference; the agent’s reasoning and context groundi
 are documented separately.
 
 
-## Notes
-- This project focuses on analysis and reasoning.
-- RPA is intentionally not used, as automation is outside the scope of Q2.
