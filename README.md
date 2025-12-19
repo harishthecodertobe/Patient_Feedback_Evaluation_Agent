@@ -38,6 +38,19 @@ Context includes:
 - Sentiment: Mixed
 - Context: Clinical Care Quality, Appointment Management
 - Classification: Service-related concern with positive clinical experience
+  ## Agent Configuration (.uis file)
+
+The `.uis` file represents the visual configuration of the agent created using
+a platform-specific Agentic AI interface.
+
+It includes:
+- Context attachment (Feedback_Index)
+- Classification prompt logic
+- Execution flow
+
+This file is included for reference; the agent’s reasoning and context grounding
+are documented separately.
+
 
 ## Notes
 - This project focuses on analysis and reasoning.
