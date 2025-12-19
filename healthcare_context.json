@@ -1,0 +1,31 @@
+{
+  "domain": "Healthcare Patient Feedback",
+  "context_categories": [
+    {
+      "category": "Clinical Care Quality",
+      "description": "Concerns related to diagnosis accuracy, treatment effectiveness, doctor behavior, and medical professionalism.",
+      "keywords": ["doctor", "treatment", "diagnosis", "care", "medicine", "prescription"]
+    },
+    {
+      "category": "Appointment Management",
+      "description": "Issues related to waiting time, scheduling delays, appointment availability, and queue handling.",
+      "keywords": ["wait", "delay", "long time", "appointment", "queue", "late"]
+    },
+    {
+      "category": "Administrative Staff Behavior",
+      "description": "Feedback regarding front-desk staff, receptionists, billing staff, and administrative support.",
+      "keywords": ["receptionist", "staff", "front desk", "billing", "helpful", "rude"]
+    },
+    {
+      "category": "Facility and Infrastructure",
+      "description": "Concerns about cleanliness, seating, equipment, and overall clinic environment.",
+      "keywords": ["clean", "facility", "room", "equipment", "washroom", "infrastructure"]
+    },
+    {
+      "category": "Communication and Information",
+      "description": "Clarity of explanations, instructions, and communication provided to patients.",
+      "keywords": ["explained", "communication", "informed", "instructions", "confusing"]
+    }
+  ],
+  "sentiment_labels": ["Positive", "Negative", "Mixed", "Neutral"]
+}

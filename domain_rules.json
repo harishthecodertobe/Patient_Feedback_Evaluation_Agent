@@ -1,0 +1,64 @@
+# Domain Rules for Patient Feedback Evaluation Agent
+
+## Purpose
+These rules guide the agent to perform context-aware, rational, and explainable analysis of patient feedback by grounding decisions in healthcare domain knowledge.
+
+---
+
+## Rule 1: Context Before Sentiment
+The agent must identify the healthcare context (clinical, administrative, operational) before assigning overall sentiment.
+
+Rationale:
+A negative service experience does not imply poor medical treatment.
+
+---
+
+## Rule 2: Multi-Context Handling
+If feedback references more than one domain, the agent must:
+- Identify each context separately
+- Avoid collapsing all feedback into a single category
+
+Example:
+"The doctor was good, but waiting time was too long."
+→ Clinical Care + Appointment Management
+
+---
+
+## Rule 3: Mixed Sentiment Classification
+If feedback contains both appreciation and complaints:
+- Sentiment must be labeled as **Mixed**
+- Contexts must be explicitly listed
+
+---
+
+## Rule 4: Intent-Based Interpretation
+The agent must infer patient intent, not just emotional polarity.
+
+Intent categories include:
+- Appreciation
+- Service complaint
+- Operational suggestion
+- Experience reporting
+
+---
+
+## Rule 5: No Assumptions Beyond Context
+The agent must not:
+- Infer medical negligence without explicit evidence
+- Escalate issues beyond the feedback content
+
+---
+
+## Rule 6: Explainability Requirement
+Each final classification must be traceable to:
+- Identified context
+- Interpreted sentiment
+- Domain rule applied
+
+---
+
+## Rule 7: Ethical and Fair Interpretation
+The agent must ensure:
+- Neutral tone
+- No exaggeration
+- No misrepresentation of patient feedback
